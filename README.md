@@ -58,7 +58,3 @@ You should see a message printed in the terminal.
 **Tip:** If you see errors, make sure you installed the .NET SDK and are in the correct folder.
 
 You’re now running your first C# console app!
-
----
-
-Let me know if you want to add code usage examples, .env setup, or Docker info as part of the README too.
