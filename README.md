@@ -1,15 +1,15 @@
-# ?? Daily Reflection SMS Sender
+# 📲 Daily Reflection SMS Sender
 
 This service sends out daily reflection messages via SMS to subscribed users. It is intended to deliver short inspirational or thought-provoking content each day to a list of recipients.
 
-## ? Features
+## ✨ Features
 
 - Retrieves a new message daily from the reflection source (e.g. AA Denmark)
 - Sends SMS messages using a provider like Twilio
 - Configurable list of recipients (can be stored in code, file, or database)
 - Designed to run on a schedule (e.g., via cron or background task)
 
-## ?? Requirements
+## 🔧 Requirements
 
 - .NET 9
 - Twilio account (or compatible SMS API)
@@ -17,7 +17,7 @@ This service sends out daily reflection messages via SMS to subscribed users. It
 
 ---
 
-## ?? Getting Started: Run the Console App (For Beginners)
+## 🚀 Getting Started: Run the Console App (For Beginners)
 
 Follow these steps to check out and run the DailyReflection console app. No prior experience needed!
 
@@ -57,7 +57,7 @@ You should see a message printed in the terminal.
 
 **Tip:** If you see errors, make sure you installed the .NET SDK and are in the correct folder.
 
-You�re now running your first C# console app!
+You’re now running your first C# console app!
 
 ---
 
