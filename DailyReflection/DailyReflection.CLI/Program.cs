@@ -1,10 +1,15 @@
-﻿namespace DailyReflection.CLI
+﻿using DailyReflection.Shared;
+
+namespace DailyReflection.CLI;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Console.WriteLine("=== Message of the Day ===\n");
+        var today = DateTime.Now;
+        var repository = new DailyReflectionRepository();
+        var message = repository.GetMessage(DateOnly.FromDateTime(today));
+        Console.WriteLine(message);
     }
 }
